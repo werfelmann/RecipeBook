@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Easy Meal Deal",
-  description: "A simplified meal planning app",
+  title: "Easy Recipe Book",
+  description: "A simplified recipe and grocery list manager",
 };
 
 export default function RootLayout({
