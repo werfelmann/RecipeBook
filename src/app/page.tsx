@@ -1,6 +1,6 @@
 "use client";
 import Header from "./components/Header";
-import GroceryList from "./components/GroceryList";
+import { GroceryList } from "./components/GroceryList";
 import Menu from "./components/Menu";
 import RecipeList from "./components/RecipeList";
 import { useState } from "react";
