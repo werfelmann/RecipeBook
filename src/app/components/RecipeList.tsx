@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function RecipeList({ recipes }) {
   return (
     <div>
@@ -10,6 +12,9 @@ export default function RecipeList({ recipes }) {
       ) : (
         <p>No recipes found</p>
       )}
+      <Link href="/addRecipe" className="text-1xl">
+        Add Recipe
+      </Link>
     </div>
   );
 }
